@@ -1,14 +1,5 @@
 #!/bin/bash
 
-echo "*******************"
-free -m
-echo "********************"
+df -h
 
-
-echo "################## Size of root home dir ###########"
-
-du -sh /root
-
-echo "###################################################"
-
-cut -d:  -f1 /etc/passwd |wc  -l
+echo "1 st job build sucessfully"
