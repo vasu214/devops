@@ -1,3 +1,5 @@
 #!/bin/bash
 
-ifconfig
+free -m 
+
+date
